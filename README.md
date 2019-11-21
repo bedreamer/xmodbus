@@ -158,10 +158,11 @@
             c.close()
     
     
-    l = asyncio.get_event_loop()
     asyncio.run(main())
 
 
 ### 安装
     
-    git clone https://www.github.com/bedreamer/
+    git clone https://www.github.com/bedreamer/xmodbus
+    cd xmodbus
+    python3 setup.py install
